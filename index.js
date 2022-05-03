@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/users", (req, res) => {
-    res.send("Users");
+    res.send("Users page");
 });
 
 app.listen("8800", () => {
